@@ -1,0 +1,249 @@
+/******  UNIVERSAL  ******/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Friz Quadrata TT";
+}
+
+h1,
+h2,
+span {
+	text-shadow: 0 6px 1px rgba(0, 0, 0, .1),
+	0 0 5px rgba(0, 0, 0, .1),
+	0 1px 3px rgba(0, 0, 0, .3),
+	0 3px 5px rgba(0, 0, 0, .2),
+	0 5px 10px rgba(0, 0, 0, .25),
+	0 10px 10px rgba(0, 0, 0, .2),
+	0 20px 20px rgba(0, 0, 0, .15);
+}
+
+p {
+	width: 50%;
+	margin: auto;
+	padding: 1em;
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+section {
+	padding: 5em 0em;
+}
+
+h2 {
+	padding-bottom: 2em;
+	text-align: center;
+	font-size: 2em;
+	transition: all .7s ease-out;
+}
+
+a {
+	text-decoration: none;
+}
+
+/******  HEADER  ******/
+
+header {
+	box-shadow: 0 15px 20px -10px #777;
+	height: 55em;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	background: url("../img/boa.jpg") no-repeat center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+
+#banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.54);
+}
+
+#banner > h1 {
+	margin-bottom: -.1em;
+	margin-top: 3.5em;
+	font-size: 6em;
+}
+
+#banner > span {
+	font-size: 1.5em;
+}
+
+nav {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.88);
+}
+
+nav a {
+	padding: 2em;
+	color: #fff;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+/******  HOME  ******/
+
+#home {
+	padding: 4em;
+}
+
+#home p {
+	padding: .5em 1em;
+	font-size: 1.6em;
+	line-height: 1.23em;
+}
+
+#home p:nth-child(1) {
+	text-align: center;
+}
+
+
+/******  UPDATES  ******/
+
+#updates {
+	padding-top: 8em;
+	background: #eee;
+	transition: all ease 1s;
+}
+
+#updates p {
+	line-height: 1.4em;
+}
+
+#updates b {
+	color: red;
+}
+
+#classic {
+	text-align: center;
+	background: rgba(0, 0, 0, 0.97);
+	margin: 3em 0em;
+}
+
+#classic img {
+	height: 10em;
+}
+
+/******  SOCIAL  ******/
+
+#social {
+	padding: 8em 0em;
+}
+
+#social ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	width: 20%;
+	margin: auto;
+
+}
+
+#social li {
+	text-align: center;
+	padding-top: 4em;
+}
+
+#social img {
+	width: 3.5em;
+}
+
+.vids {
+	width: 80%;
+}
+
+iframe {
+	margin: .5em;
+	padding: 1.5em;
+	border: 1px solid #bbb;
+	box-shadow: inset 0 0 30px 10px #bbb;
+	transition: all 300ms ease-out;
+}
+iframe:hover {
+	box-shadow: inset 0 0 8px 30px #999;
+}
+
+
+/******  ADDONS  ******/
+
+#addons {
+	padding-top: 8em;
+	background: #eee;
+	overflow: auto;
+}
+
+#addons ul {
+	padding-top: 4em;
+	list-style: none;
+	margin: auto;
+	width: 50%;
+}
+
+#addons li {
+	margin: 1em;
+	padding: 1em;
+	background: #ccc;
+	box-shadow: inset 0 0 15px 2px #999;
+}
+
+#addons li p {
+	width: 100%;
+	text-align: left;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 6px 6px -6px;
+	font-family: serif;
+	font-size: 1.4em;
+	padding: 2em;
+}
+
+#addons a {
+	display: block;
+	font-size: 1.4em;
+	padding: .4em;
+	border-bottom: 1px solid #ccc;
+	color: red;
+	background: #fff;
+	transition: all .3s ease;
+}
+
+#addons a:hover {
+	background: #eee;
+	transition: all .3s ease-out;
+}
+.link1 {
+	float: left;
+	padding-left: 10em;
+}
+.link2 {
+	float: right;
+	padding-right: 10em;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.88);
+}
+
+h3 {
+	color: #888;
+	text-align: center;
+	font-size: 1em;
+	padding: 2em;
+
+}
